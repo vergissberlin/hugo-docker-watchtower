@@ -2,8 +2,8 @@
 
 ## Normal hugo stuff
 
-1. Follow the [https://gohugo.io/getting-started/quick-start/](quickstart).
-2. Install on of the themes.
+1. Follow the [quickstart](https://gohugo.io/getting-started/quick-start/).
+2. Install on of the themes. For this example, I've choosen the [UI-Kit](https://themes.gohugo.io//theme/hugo-now-ui/) [[repo](https://github.com/cboettig/hugo-now-ui)].
 3. Add some demo pages from the examplePage of the theme
 4. Push it to your reposistories (for instance on GitHub)
 
@@ -15,4 +15,4 @@
     1. It pulls the new image on the Docker host and
     2. it restarts the related running instances.
 
-In this example [Watchtower](https://containrrr.github.io/watchtower/) is running on some server aslike the static webpage, but it can run on remote servers also. for more informations take a look on the [documentation](https://containrrr.github.io/watchtower//usage-overview/).
+In this example [Watchtower](https://containrrr.github.io/watchtower/) is running on same server aslike the static webpage, but it can run on remote servers also. For more information, take a look on the [documentation](https://containrrr.github.io/watchtower/usage-overview/).
