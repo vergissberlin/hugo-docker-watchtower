@@ -1,0 +1,20 @@
+/*
+
+!/.env.dist
+!/archtypes
+!/config
+!/config.toml
+!/content
+!/data
+!/Dockerfile
+!/docker-compose.yml
+!/docker-compose.override.dist.yml
+!/docker-compose.watchtower.yml
+!/.gitignore
+!/layouts
+!/README.md
+!/static
+!/themes
+
+# Always ignore
+.env
