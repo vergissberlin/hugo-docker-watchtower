@@ -15,4 +15,7 @@
     1. It pulls the new image on the Docker host and
     2. it restarts the related running instances.
 
-In this example [Watchtower](https://containrrr.github.io/watchtower/) is running on same server aslike the static webpage, but it can run on remote servers also. For more information, take a look on the [documentation](https://containrrr.github.io/watchtower/usage-overview/).
+### Hints
+
+1. In this example [Watchtower](https://containrrr.github.io/watchtower/) is running on same server aslike the static webpage, but it can run on remote servers also. For more information, take a look on the [documentation](https://containrrr.github.io/watchtower/usage-overview/).
+2. On my webserver I use the jwilder HTTP proxy, to be able to have more than one application on the server which is exposing port 80 or 443. In addition I use Let's encrypt certificates. But this is ontoher topic. If you dont want this, just delete the lines in the `docker-compose.yml` file.

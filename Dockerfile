@@ -1,9 +1,9 @@
-FROM registry.gitlab.com/pages/hugo as build
+FROM vergissberlin/hugo as build
 LABEL com.centurylinklabs.watchtower.enable="false"
 
 WORKDIR /build
 COPY ./ /build
-RUN hugo
+RUN /usr/bin/hugo
 
 FROM nginx:alpine
 LABEL maintainer André Lademann <vergissberlin@googlemail.com>
