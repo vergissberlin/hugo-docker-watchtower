@@ -1,4 +1,4 @@
-baseURL = "http://hugo-docker-watchtower.andrelademann.de"
+baseURL = "https://hugo-docker-watchtower.andrelademann.de"
 languageCode = "en-us"
 title = "My New Hugo Site with Docker and Watchtower"
 theme = "hugo-now-ui"
